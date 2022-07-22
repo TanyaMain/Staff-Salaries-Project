@@ -43,6 +43,7 @@ public class Details {
         this.salary = salary;
     }
     
+    //the increased amount 
      public double getIncreasedAmount(double salary) {
          
         double salaryIncrease;
@@ -50,6 +51,7 @@ public class Details {
         return salaryIncrease;
      }
     
+     //method to update Salaries
     double getUpdatedSalary(double salary){
         
         double salaryIncrease;
